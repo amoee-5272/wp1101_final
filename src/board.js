@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import 'antd/dist/antd.css';
-import instance from './instance.js'
+import instance from './instance'
 import styled from 'styled-components';
 import { v4 as uuidv4 } from 'uuid'
 //import moment from 'moment'

@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-	"@babel/cli": "^7.16.8",
-    "@babel/core": "^7.16.7",
-    "@babel/node": "^7.16.8",
-    "@babel/preset-env": "^7.16.8",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -26,7 +22,7 @@
     "web-vitals": "^2.1.3"
   },
   "scripts": {
-    "start": "nodemon server.js --ext js --exec babel-node",
+    "start": "babel-node server.js",
     "build": "react-scripts build",
     "start_react": "react-scripts start"
   },

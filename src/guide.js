@@ -1,6 +1,6 @@
 import React from 'react'
 //import Appbar from './appbar'
-import Board from './board.js'
+import Board from './board'
 import CardBook from './Containers/CardBook.js'
 //import Post from './post'
 //import Edit from './edit'

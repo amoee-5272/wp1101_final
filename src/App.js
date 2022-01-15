@@ -1,5 +1,5 @@
 import React from 'react'
-import Guide from './guide.js'
+import Guide from './guide'
 
 import { BrowserRouter as Router } from 'react-router-dom'
 
